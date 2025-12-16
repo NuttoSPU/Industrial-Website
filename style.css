@@ -1,0 +1,157 @@
+body {
+    /* height: 5000px; */
+    overflow-x: hidden;
+    transform: initial;
+}
+.logo-text{
+    font-size: 40px;
+}
+
+.navbar-text-active{
+    color:#DDA853 ;
+}
+
+.nav-text{
+    color: #fff;
+}
+
+.navbar-header {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-header-text{
+    font-size: 25px;
+}
+.text-header{
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.bg-img {
+    height: 75vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.subtitle1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #fff;
+    font-size: 40px;
+}
+.subtitle2{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar {
+    border-bottom: 3px solid rgba(255, 255, 255, 1    );
+    transition: all 0.5s;
+}
+
+.navbar-scrolled{
+    background-color: #102E50;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid rgba(255, 255, 255, 0    );
+}
+
+.bg-odd{
+    /* background-color: #002455; */
+    background-color: #102E50;
+}
+
+.bg-even{
+    background-color: white;
+}
+
+.bg-sub{
+    /* background-color: #F4B342; */
+    background-color: #DDA853;
+}
+
+.img-round{
+    border-radius: 3px;
+}
+
+.btn-border {
+    display: inline-block;
+    padding: 4px; /* border thickness */
+  
+    background: #DDA853;
+  
+    /* angled shape */
+    clip-path: polygon(
+      14px 0%,
+      100% 0%,
+      100% calc(100% - 14px),
+      calc(100% - 14px) 100%,
+      0% 100%,
+      0% 14px
+    );
+  }
+  
+  .btn-inner {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  
+    padding: 8px 20px;
+    background: #102E50;
+    color: #fff;
+  
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+  
+    /* SAME shape but smaller */
+    clip-path: polygon(
+      12px 0%,
+      100% 0%,
+      100% calc(100% - 12px),
+      calc(100% - 12px) 100%,
+      0% 100%,
+      0% 12px
+    );
+    transition: 
+    background 0.25s ease,
+    color 0.25s ease;
+  }
+
+  .btn-border:hover {
+    /* transform: translateY(-2px); */
+    filter: drop-shadow(0 6px 14px rgba(255,180,0,0.45));
+  }
+  
+  .btn-border:hover .btn-inner {
+    color: #DDA853;
+  }
+  
+
+.footer{
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.center{
+    align-items: center;
+}
+.underline{
+    border-bottom: .5rem solid #fab033;
+    display: inline-block;
+}
+.copyright{
+    border-top: 1px solid #404040;
+}
