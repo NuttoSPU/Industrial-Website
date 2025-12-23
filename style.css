@@ -79,6 +79,8 @@ body {
 .bg-sub{
     /* background-color: #F4B342; */
     background-color: #DDA853;
+    display: flex;
+    align-items: center;
 }
 
 .img-round{
