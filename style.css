@@ -56,14 +56,14 @@ body {
 }
 
 .navbar {
-    border-bottom: 3px solid rgba(255, 255, 255, 1    );
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
     transition: all 0.5s;
 }
 
 .navbar-scrolled{
     background-color: #102E50;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    border-bottom: 3px solid rgba(255, 255, 255, 0    );
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
 }
 
 .bg-odd{
@@ -72,12 +72,16 @@ body {
 }
 
 .bg-even{
-    background-color: white;
+    background-color: #E6E6E6;
+}
+
+.bg-service{
+    background-color: #E6E6E6;
 }
 
 .bg-sub{
     /* background-color: #F4B342; */
-    background-color: #DDA853;
+    background-color: #E6E6E6;
     display: flex;
     align-items: center;
 }
@@ -90,7 +94,7 @@ body {
     display: inline-block;
     padding: 4px; /* border thickness */
   
-    background: #DDA853;
+    background: #FF8040;
   
     /* angled shape */
     clip-path: polygon(
@@ -103,14 +107,14 @@ body {
     );
   }
   
-  .btn-inner {
+.btn-inner {
     display: inline-flex;
     align-items: center;
     gap: 4px;
   
     padding: 8px 20px;
     background: #102E50;
-    color: #fff;
+    color: #E6E6E6;
   
     font-weight: 600;
     letter-spacing: 1px;
@@ -128,31 +132,96 @@ body {
     transition: 
     background 0.25s ease,
     color 0.25s ease;
-  }
+}
 
-  .btn-border:hover {
+.btn-border:hover {
     /* transform: translateY(-2px); */
-    filter: drop-shadow(0 6px 14px rgba(255,180,0,0.45));
-  }
+    filter: drop-shadow(0 6px 14px rgba(237, 152, 95, 0));
+}
   
-  .btn-border:hover .btn-inner {
-    color: #DDA853;
-  }
+.btn-border:hover .btn-inner {
+    color: #FF8040;
+}
   
 
 .footer{
     background-color: #333;
-    color: #fff;
+    color: #E6E6E6;
     padding: 2rem;
     text-align: center;
 }
+
+.site-footer {
+    background-color: #333; /* สีพื้นหลัง */
+    color: #fff;           /* สีตัวอักษร */
+    padding: 40px 0 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; /* ระยะห่างระหว่างคอลัมน์ */
+    align-items: center;
+}
+
+/* ฝั่งชื่อบริษัท */
+.footer-info h3 {
+    margin-top: 0;
+    font-size: 18px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* ฝั่งข้อมูลติดต่อ */
+.footer-contact p {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact i {
+    width: 25px;       /* ความกว้างไอคอน */
+    color: #FF8040;    /* สีไอคอน */
+    margin-right: 10px;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive: มือถือให้เรียงแนวตั้ง */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
 .center{
     align-items: center;
 }
+
 .underline{
-    border-bottom: .5rem solid #fab033;
+    border-bottom: .5rem solid #FF8040;
     display: inline-block;
 }
-.copyright{
+
+.copyright {
     border-top: 1px solid #404040;
+    margin-top: 30px;               
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b0b0b0;
+    font-size: 14px;
 }
