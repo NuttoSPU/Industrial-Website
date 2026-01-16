@@ -8,7 +8,7 @@ body {
 }
 
 .navbar-text-active{
-    color:#DDA853 ;
+    color:#FF8040 ;
 }
 
 .nav-text{
@@ -190,6 +190,9 @@ body {
     width: 25px;       /* ความกว้างไอคอน */
     color: #FF8040;    /* สีไอคอน */
     margin-right: 10px;
+}
+.icon i{
+    color: #FF8040;    /* สีไอคอน */
 }
 
 .footer-contact a {
