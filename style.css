@@ -235,7 +235,9 @@ body {
 .map-card{
     width:600px;
 }
-
+.extra-text {
+    display: show;
+    }
 @media (max-width:600px) { 
     .bg-img {
     height: 50vh;
@@ -270,5 +272,8 @@ body {
     }
     .extra-text {
     display: none;
+    }
+    .card{
+        width: 350px;
     }
 }
