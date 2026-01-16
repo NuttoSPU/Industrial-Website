@@ -268,4 +268,7 @@ body {
     .map-card{
     width:300px;
     }
+    .extra-text {
+    display: none;
+    }
 }
